@@ -1,0 +1,7 @@
+path: C:/Users/Saurabh/My All Projects/Garbage_Detection_Project/dataset
+
+train: images/train
+val: images/train
+
+names:
+  0: garbage

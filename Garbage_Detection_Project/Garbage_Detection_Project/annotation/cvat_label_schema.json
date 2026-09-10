@@ -1,0 +1,11 @@
+{
+  "annotation_type": "bounding_box",
+  "labels": [
+    {"id": 0, "name": "battery"}, {"id": 1, "name": "biological"},
+    {"id": 2, "name": "cardboard"}, {"id": 3, "name": "clothes"},
+    {"id": 4, "name": "glass"}, {"id": 5, "name": "metal"},
+    {"id": 6, "name": "paper"}, {"id": 7, "name": "plastic"},
+    {"id": 8, "name": "shoes"}, {"id": 9, "name": "trash"}
+  ],
+  "excluded_as_detection_class": "clean"
+}
