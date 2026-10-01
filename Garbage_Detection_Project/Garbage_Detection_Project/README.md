@@ -6,6 +6,23 @@ A professional, end-to-end AI garbage detection system built with **Python, YOLO
 
 ---
 
+## Demo
+
+<!-- TODO: Replace VIDEO_URL with your actual YouTube/demo video link -->
+<p align="center">
+  <a href="VIDEO_URL">
+    <img src="https://img.shields.io/badge/Watch-Demo%20Video-F5A623?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo Video">
+  </a>
+</p>
+
+| Feature | Preview |
+|---------|---------|
+| Industrial control-room dashboard | Real-time detection with per-class counts |
+| Live camera monitoring | Image & video file analysis |
+| History & analytics | Searchable events, charts, model metrics |
+
+---
+
 ## Object classes
 
 The detector recognises **10 garbage classes**:
