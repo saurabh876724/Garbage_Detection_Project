@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+yolo_env/
+venv/
+env/
+
+# Datasets and derived data (never commit image data)
+dataset/
+dataset_final/
+legacy/
+evidence/
+data/
+backups/
+
+# Demo test images (downloaded from Pexels, not original work)
+demo_data/images/
+
+# Training outputs and model weights
+runs/
+models/
+*.pt
+*.h5
+weights/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+
+# Reports generated locally
+dataset_final/reports/

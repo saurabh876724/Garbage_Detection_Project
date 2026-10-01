@@ -1,0 +1,14 @@
+# Smart Garbage Detection System - runtime dependencies
+# Install into the project venv:
+#   .venv/Scripts/python -m pip install -r requirements.txt
+#
+# PyTorch with CUDA 12.8 (RTX 4050). CPU-only fallback works but is slow.
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch>=2.4
+torchvision>=0.19
+ultralytics>=8.3
+opencv-python>=4.9
+numpy>=1.26
+Pillow>=10.0
+PySide6>=6.6

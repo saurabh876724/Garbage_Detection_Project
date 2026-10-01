@@ -1,7 +1,20 @@
-path: C:/Users/Saurabh/My All Projects/Garbage_Detection_Project/dataset
-
+# YOLOv8 dataset config for the final garbage detection dataset.
+# Built by scripts/prepare_final_dataset.py (80/10/10 split, MD5-deduped,
+# no train/val overlap). Class IDs are fixed by the annotation schema:
+# do NOT add "clean" as a class; CLEAN/DIRTY is derived at inference time.
+path: C:/Users/Saurabh/OneDrive/Desktop/Garbage_Detection_Project/Garbage_Detection_Project/Garbage_Detection_Project/dataset_final
 train: images/train
-val: images/train
+val: images/val
+test: images/test
 
 names:
-  0: garbage
+  0: battery
+  1: biological
+  2: cardboard
+  3: clothes
+  4: glass
+  5: metal
+  6: paper
+  7: plastic
+  8: shoes
+  9: trash
